@@ -1,6 +1,3 @@
-# A maven docker image with aliyun mirror configed
-This image is based on maven:3.9-eclipse-temurin-23 with a pre-configed `~/.m2/settings.xml` file:
-```
 <settings>
     <mirrors>
         <mirror>
@@ -11,4 +8,3 @@ This image is based on maven:3.9-eclipse-temurin-23 with a pre-configed `~/.m2/s
         </mirror>
     </mirrors>
 </settings>
-```
